@@ -1,13 +1,13 @@
 import React from 'react'
-
+import { Button } from 'reactstrap'
 import './post-status-filter.css'
 
 const PostStatusFilter = () => {
   return (
     <div className="btn-group">
-      <button type="button" className="btn btn-info">
+      <Button outline color="info">
         All
-      </button>
+      </Button>
       <button type="button" className="btn btn-outline-secondary">
         By like
       </button>
